@@ -28,7 +28,7 @@ export default function Navbar() {
           <NavigationMenu>
             <NavigationMenuList>
               <NavigationMenuItem className="hidden md:flex">
-                <NavLink to={`/new-treat`}>
+                <NavLink to={`/new-threat`}>
                   {({ isActive }) => <span className={navManuStyles(isActive)}>New Threat</span>}
                 </NavLink>
               </NavigationMenuItem>

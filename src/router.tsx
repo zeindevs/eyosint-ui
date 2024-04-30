@@ -4,6 +4,7 @@ import ForgetPassword from './pages/auth/forget-password'
 import Login from './pages/auth/login'
 import Signup from './pages/auth/signup'
 import Home from './pages/home'
+import NewThreat from './pages/new-threat'
 
 export const router = createBrowserRouter([
   {
@@ -21,5 +22,9 @@ export const router = createBrowserRouter([
   {
     path: '/forget-password',
     element: <ForgetPassword />,
+  },
+  {
+    path: '/new-threat',
+    element: <NewThreat />,
   },
 ])
